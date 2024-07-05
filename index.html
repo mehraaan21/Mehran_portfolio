@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f59f06fe10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <!--<img src="images/Black Modern.png" class="logo">--> 
+           <p class="logo"><span>M</span>ehran.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project-scroll">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+            <p>Front End Devloper</p>
+            <h1>Hi, I'm <br>Md <span>Mehran</span></h1>
+            </div>
+    </div>
+
+</div>
+
+<!--about-->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/About photo.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m an enthusiastic web developer and here is my portfolio website. Here you’ll
+                    learn about my journey as a web developer or software devloper with expertise in
+                     HTML, CSS, JavaScript, API Key's, React.Js, Redux and C/C++ language. Proficient in building user-friendly applications, demonstrated through
+                      projects.
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Project')">Project</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Front End Devloper</span><br>Website Devloper</li>
+                        <li><span>Software Devloper</span><br>The Coder</li>
+                        <li><span>UI/UX Devloper</span><br>Website Interfaces</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Project">
+                    <ul>
+                        <li><span>Weather Forecaste Website</span><br>Techologies: HTML, CSS, JS, API key's</li>
+                        <li><span>Tic Tak Toc Game</span><br>Techologies: HTML, CSS, JS</li>
+                        <li><span>ResumeCraft Website</span><br>Techologies: React.js and Redux</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-2024</span><br>MCA at TIT, Bhopal</li>
+                        <li><span>2017-2020</span><br>B.Sc at Magadh University, Bihar</li>
+                        <li><span>2015-2017</span><br>I.SC at Mirza Ghalib College, Gaya</li>
+                        <li><span>2015</span><br>Matrix at High school, Hasua</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------skills-------------->
+
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title"> My Skills <span><i class="fa-solid fa-code"></i></span></h1>
+        <div class="skills-list">
+            <div>
+                
+                <h2> HTML <i class="fa-brands fa-html5"></i></h2>
+                <p>HTML stands for HyperText Markup Language. It's the code that forms the foundation of web pages. that provides structure and organization to the content you see on a web page, like text, images, and videos.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>CSS <i class="fa-brands fa-css3-alt"></i></h2>
+                <p>CSS stands for Cascading Style Sheets. It's the language that adds the clothes to the web page skeleton (HTML) you mentioned earlier.  It controls how things are styled and displayed on a webpage, like fonts, colors, and layout.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Tailwindcss <i class="fa-solid fa-code"></i></h2>
+                <p>Tailwind CSS is a different approach to styling webpages.  Unlike CSS that use pre-built styles, Tailwind provides a collection of tiny, reusable utility classes.  You combine these classes in your HTML to achieve the exact design you want without writing a lot of custom CSS.</p>
+                <a href="https://tailwindcss.com/">Learn more</a>
+            </div>
+            <div>
+                <h2>JavaScript <i class="fa-brands fa-js"></i></h2>
+                <p>JavaScript is the dynamic part of the web development trio along with HTML and CSS.  While HTML provides structure and CSS styles the look, JavaScript adds interactivity to webpages.  Think of it like the brain of a webpage, allowing features like animations, user input forms, and more.</p>
+                <a href="https://nodejs.org/en">Learn more</a>
+            </div>
+            <div>
+                <h2>React.Js <i class="fa-brands fa-react"></i></h2>
+                <p>React is a popular open-source JavaScript library for building user interfaces.  It emphasizes a component-based approach for building interactive web applications.</p>
+                <a href="https://react.dev/">Learn more</a>
+            </div>
+            <div>
+                <h2>Redux Toolkits <i class="fa-brands fa-react" ></i></h2>
+                <p>Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.</p>
+                <a href="https://redux-toolkit.js.org/">Learn more</a>
+            </div>
+            <div>
+                <h2>SQL <i class="fa-solid fa-database"></i></h2>
+                <p>SQL stands for Structured Query Language. It's a specialized programming language designed for communicating with relational databases.  These databases store information in a structured format, typically tables with rows and columns.</p>
+                <a href="https://aws.amazon.com/what-is/sql/">Learn more</a>
+            </div>
+           
+            <div>
+                <h2>C language <i class="fa-solid fa-code"></i></h2>
+                <p>C is a powerful and versatile programming language that has been around for decades. It is known for its efficiency, low-level control, and ability to interact directly with hardware. C is a popular language for system programming, application development, and game development.</p>
+                <a href="https://www.w3schools.com/c/c_intro.php">Learn more</a>
+            </div>
+            <div>
+                <h2>C++ language <i class="fa-solid fa-code"></i></h2>
+                <p>C++, pronounced "C plus plus", is a powerful and versatile programming language that builds upon the foundation of C. C++ provides a more structured approach with OOP features. This can make C++ easier to maintain for larger projects.</p>
+                <a href="https://cplusplus.com/doc/tutorial/">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--------project-------->
+
+<div id="project-scroll">
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="project-list">
+            <div class="work">
+                <img src="images/weather .png">
+                <div class="layer">
+                    <h3>Weather Forecaste Website</h3>
+                    <p>Weather forecast website is to provide users with accurate, timely, and detailed meteorological information about the weather-related data, such as temperature, humidity, precipitation, wind speed and direction ,and atmospheric pressure.</p>
+                    <a href="https://github.com/mehraaan21"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/game.png">
+                <div class="layer">
+                    <h3>Tic Tak Toc Game</h3>
+                    <p>Game developed a digital version of the iconic Tic Tak Toc game, challenging player store member and replicate sequences of pattern. It offered a fun and educational experience by enhancing memory and cognitive skills through game play.</p>
+                    <a href="https://github.com/mehraaan21"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/resume 3.png">
+                <div class="layer">
+                    <h3>ResumeCraft Website</h3>
+                    <p>Resumecraft: A ReactJS-powered resume maker designed to streamline the resume creation process.ReactJS to develop a user-friendly interface, enabling users to craft professional resumes effortlessly. Integrated features for easy customization and formatting resumes for diverse industries.</p>
+                    <a href="https://github.com/mehraaan21"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/mehraaan21" class="btn">See more</a>
+    </div>
+</div>
+</div>
+
+<!------contact---------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p ><i class="fa-solid fa-paper-plane"></i>syedmehran00721@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91-8804586825</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/md-mehran-36571a219/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/mehraaan21"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Dowload CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="devlop">
+        <p>Devlop By Md Mehran</p>
+    </div>
+</div>
+
+<!--js file link-->
+
+<script src="script.js"></script>
+
+    
+</body>
+</html>
